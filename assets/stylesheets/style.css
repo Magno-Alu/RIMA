@@ -21,3 +21,12 @@
     color: #010E45;
     text-indent: 30px;
 }
+
+section{
+    padding: 15px 0;
+    margin: 10px;
+}
+
+footer{
+    background-color: darkgray;
+}
