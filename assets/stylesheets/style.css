@@ -1,23 +1,63 @@
 * {
     margin: 0;
     padding: 0;
+    animation: flesx 1s;
 }
 
-#homeMenuBackground{
+@keyframes flesx {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+#animada{
+    position: relative;
+    animation: voutinha 6s;
+}
+
+@keyframes voutinha {
+    0%{
+        left: 0px;
+        top: 0px;
+    }
+    25%{
+        left: 50px;
+        top: 0px;
+    }
+    50%{
+        left: 0px;
+        top: 150px;
+    }
+    75%{
+        left: -5px;
+        top: 0px;
+    }
+    100%{
+        left: 0px;
+        top: 0px;
+    }
+}
+
+
+#homeMenuBackground {
     background-color: Lavender;
 }
 
-#homeMenu{
+#homeMenu {
     color: #010E45;
     font-size: 150%;
 }
 
-#titulo{
+#titulo {
     color: #010E45;
     font-size: 50px;
 }
 
-.texto{
+.texto {
     color: #010E45;
     text-indent: 30px;
 }
